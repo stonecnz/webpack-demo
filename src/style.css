@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "MyFont";
+  src: url("./Comforter-Regular.ttf") format("truetype");
+}
+
 .name {
   text-align: center;
+  font-family: "MyFont";
   font-size: 3rem;
   padding: 3rem 1rem;
   color: purple;
@@ -14,6 +20,7 @@
   border-radius: 1rem;
   width: fit-content;
   margin: 5rem auto;
+  background: url("./Stick\ man\ running.gif");
 }
 
 .name:hover {
