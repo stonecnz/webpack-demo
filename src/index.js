@@ -7,7 +7,7 @@ function component() {
 
   element.innerHTML = myName("Caleb");
 
-  btn.innerHTML = "Click me and chekc the console!";
+  btn.innerHTML = "Click me and check the console!";
   btn.onclick = printMe;
 
   element.appendChild(btn);
